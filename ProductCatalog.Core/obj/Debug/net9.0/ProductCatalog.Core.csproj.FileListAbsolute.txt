@@ -1,0 +1,12 @@
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\bin\Debug\net9.0\ProductCatalog.Core.deps.json
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\bin\Debug\net9.0\ProductCatalog.Core.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\bin\Debug\net9.0\ProductCatalog.Core.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.csproj.AssemblyReference.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.AssemblyInfoInputs.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.AssemblyInfo.cs
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.csproj.CoreCompileInputs.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\refint\ProductCatalog.Core.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ProductCatalog.Core.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Core\obj\Debug\net9.0\ref\ProductCatalog.Core.dll

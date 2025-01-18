@@ -1,0 +1,17 @@
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Application.deps.json
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Application.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Application.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Core.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Core.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.csproj.AssemblyReference.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.AssemblyInfoInputs.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.AssemblyInfo.cs
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.csproj.CoreCompileInputs.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductC.224523BD.Up2Date
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\refint\ProductCatalog.Application.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ProductCatalog.Application.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\obj\Debug\net9.0\ref\ProductCatalog.Application.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Infrastructure.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\bin\Debug\net9.0\ProductCatalog.Infrastructure.pdb

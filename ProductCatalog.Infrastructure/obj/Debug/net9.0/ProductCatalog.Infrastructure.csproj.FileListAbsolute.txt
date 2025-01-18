@@ -1,0 +1,15 @@
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\bin\Debug\net9.0\ProductCatalog.Infrastructure.deps.json
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\bin\Debug\net9.0\ProductCatalog.Infrastructure.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\bin\Debug\net9.0\ProductCatalog.Infrastructure.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\bin\Debug\net9.0\ProductCatalog.Core.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\bin\Debug\net9.0\ProductCatalog.Core.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.AssemblyInfo.cs
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductC.710271C5.Up2Date
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\refint\ProductCatalog.Infrastructure.dll
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ProductCatalog.Infrastructure.pdb
+C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Infrastructure\obj\Debug\net9.0\ref\ProductCatalog.Infrastructure.dll

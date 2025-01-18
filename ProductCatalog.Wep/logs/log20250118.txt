@@ -1,0 +1,994 @@
+2025-01-18 13:01:24.340 +02:00 [INF] User profile is available. Using 'C:\Users\AL Motahida\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-18 13:01:29.004 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:01:33.854 +02:00 [INF] Executed DbCommand (559ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:01:34.165 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:01:34.222 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-01-18 13:01:35.786 +02:00 [INF] Now listening on: https://localhost:7192
+2025-01-18 13:01:35.798 +02:00 [INF] Now listening on: http://localhost:5183
+2025-01-18 13:01:36.071 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 13:01:36.144 +02:00 [INF] Hosting environment: Development
+2025-01-18 13:01:36.151 +02:00 [INF] Content root path: C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep
+2025-01-18 13:01:38.629 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:01:40.142 +02:00 [INF] Executed DbCommand (131ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-01-18 13:01:40.404 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-01-18 13:01:40.644 +02:00 [INF] Executed DbCommand (108ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-01-18 13:01:40.711 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:01:40.788 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-01-18 13:01:40.865 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:01:41.006 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:01:41.275 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:01:41.571 +02:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:01:41.790 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:01:42.484 +02:00 [INF] Executed ViewResult - view Index executed in 696.718ms.
+2025-01-18 13:01:42.515 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 1496.9927ms
+2025-01-18 13:01:42.527 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:01:42.582 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 4013.9836ms
+2025-01-18 13:01:42.838 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-01-18 13:01:42.876 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:01:42.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-01-18 13:01:43.103 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/images/866e901e-4623-4c90-a161-95023896a0e2.jpeg - null null
+2025-01-18 13:01:43.104 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/images/0e356562-bbf2-491e-8b06-7bead793ecad.jpeg - null null
+2025-01-18 13:01:43.170 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-01-18 13:01:43.185 +02:00 [INF] The file /css/site.css was not modified
+2025-01-18 13:01:43.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 312.6047ms
+2025-01-18 13:01:43.204 +02:00 [INF] The file /images/866e901e-4623-4c90-a161-95023896a0e2.jpeg was not modified
+2025-01-18 13:01:43.229 +02:00 [INF] The file /images/0e356562-bbf2-491e-8b06-7bead793ecad.jpeg was not modified
+2025-01-18 13:01:43.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 407.3873ms
+2025-01-18 13:01:43.249 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 304 null text/css 379.2337ms
+2025-01-18 13:01:43.276 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:01:43.284 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/images/866e901e-4623-4c90-a161-95023896a0e2.jpeg - 304 null image/jpeg 230.1305ms
+2025-01-18 13:01:43.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/images/0e356562-bbf2-491e-8b06-7bead793ecad.jpeg - 304 null image/jpeg 197.4696ms
+2025-01-18 13:01:43.331 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/images/18c4926a-7256-4ef6-bdc3-d7925bc38e9e.jpeg - null null
+2025-01-18 13:01:43.349 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:01:43.409 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/lib/jquery/dist/jquery.min.js - null null
+2025-01-18 13:01:43.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-01-18 13:01:43.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-01-18 13:01:43.545 +02:00 [INF] Sending file. Request path: '/images/18c4926a-7256-4ef6-bdc3-d7925bc38e9e.jpeg'. Physical path: 'C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep\wwwroot\images\18c4926a-7256-4ef6-bdc3-d7925bc38e9e.jpeg'
+2025-01-18 13:01:43.571 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-01-18 13:01:43.575 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:01:43.601 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-01-18 13:01:43.627 +02:00 [INF] The file /js/site.js was not modified
+2025-01-18 13:01:43.670 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 198.0128ms
+2025-01-18 13:01:43.639 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/images/18c4926a-7256-4ef6-bdc3-d7925bc38e9e.jpeg - 200 1798 image/jpeg 307.5458ms
+2025-01-18 13:01:43.648 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/lib/jquery/dist/jquery.min.js - 304 null text/javascript 241.9249ms
+2025-01-18 13:01:43.666 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 244.4672ms
+2025-01-18 13:01:43.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 368.5432ms
+2025-01-18 13:01:44.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 527.1058ms
+2025-01-18 13:01:44.354 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/favicon.ico - null null
+2025-01-18 13:01:44.386 +02:00 [INF] The file /favicon.ico was not modified
+2025-01-18 13:01:44.400 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/favicon.ico - 304 null image/x-icon 46.3879ms
+2025-01-18 13:01:50.499 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:01:50.594 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:01:50.617 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:01:50.764 +02:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:01:50.861 +02:00 [INF] Executed DbCommand (27ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:01:50.925 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:01:50.951 +02:00 [INF] Executed ViewResult - view Index executed in 26.3847ms.
+2025-01-18 13:01:50.959 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 324.2497ms
+2025-01-18 13:01:50.965 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:01:50.970 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 470.791ms
+2025-01-18 13:01:51.310 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:01:51.314 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:01:51.330 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:01:51.375 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 64.9515ms
+2025-01-18 13:01:51.430 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 100.107ms
+2025-01-18 13:01:51.663 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 348.9476ms
+2025-01-18 13:01:51.682 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:01:54.052 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:01:54.126 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:01:54.135 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:01:54.168 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:01:54.187 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:01:54.197 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:01:54.208 +02:00 [INF] Executed ViewResult - view Index executed in 10.7325ms.
+2025-01-18 13:01:54.211 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 63.5487ms
+2025-01-18 13:01:54.214 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:01:54.216 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 163.885ms
+2025-01-18 13:01:54.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:01:54.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:01:54.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:01:54.492 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 16.027ms
+2025-01-18 13:01:54.533 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:01:54.500 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 24.0558ms
+2025-01-18 13:01:54.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 273.5851ms
+2025-01-18 13:01:57.664 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:01:57.716 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:01:57.732 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:01:57.767 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:01:57.796 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:01:57.804 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:01:57.815 +02:00 [INF] Executed ViewResult - view Index executed in 11.3847ms.
+2025-01-18 13:01:57.819 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 69.163ms
+2025-01-18 13:01:57.829 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:01:57.832 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 168.8316ms
+2025-01-18 13:01:58.135 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:01:58.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:01:58.148 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:01:58.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 180.3169ms
+2025-01-18 13:01:58.340 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 192.567ms
+2025-01-18 13:01:58.373 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:01:58.459 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 313.592ms
+2025-01-18 13:02:02.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:02:03.010 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:02:03.012 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:02:03.029 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:02:03.041 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:02:03.050 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:02:03.063 +02:00 [INF] Executed ViewResult - view Index executed in 12.3129ms.
+2025-01-18 13:02:03.081 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 63.8698ms
+2025-01-18 13:02:03.089 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:02:03.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 131.9158ms
+2025-01-18 13:02:03.274 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:02:03.281 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:02:03.281 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:02:03.358 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 84.0378ms
+2025-01-18 13:02:03.366 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 85.067ms
+2025-01-18 13:02:03.465 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:02:03.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 305.771ms
+2025-01-18 13:02:25.126 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/CreateOrEdit/1 - null null
+2025-01-18 13:02:25.253 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:02:25.276 +02:00 [INF] Route matched with {action = "CreateOrEdit", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrEdit(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:02:25.300 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:02:25.364 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-01-18 13:02:25.397 +02:00 [INF] Executing ViewResult, running view CreateOrEdit.
+2025-01-18 13:02:25.874 +02:00 [INF] Executed ViewResult - view CreateOrEdit executed in 482.874ms.
+2025-01-18 13:02:25.878 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep) in 595.1462ms
+2025-01-18 13:02:25.892 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:02:25.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/CreateOrEdit/1 - 200 null text/html; charset=utf-8 772.652ms
+2025-01-18 13:02:26.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:02:26.106 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:02:26.184 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:02:26.184 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2025-01-18 13:02:26.245 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2025-01-18 13:02:26.249 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 148.872ms
+2025-01-18 13:02:26.316 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:02:26.276 +02:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2025-01-18 13:02:26.311 +02:00 [INF] The file /lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js was not modified
+2025-01-18 13:02:26.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 304 null text/javascript 118.4135ms
+2025-01-18 13:02:26.347 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 162.8319ms
+2025-01-18 13:02:26.257 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 150.6821ms
+2025-01-18 13:02:26.510 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 325.7833ms
+2025-01-18 13:02:36.593 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7192/Products/CreateOrEdit/1 - multipart/form-data; boundary=----WebKitFormBoundarybVRXEsDhcet3lw6f 1560
+2025-01-18 13:02:36.624 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:02:36.642 +02:00 [INF] Route matched with {action = "CreateOrEdit", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrEdit(System.Nullable`1[System.Int32], ProductCatalog.Application.DTOs.ProductDto) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:02:36.764 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-01-18 13:03:22.421 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep) in 45774.0879ms
+2025-01-18 13:03:22.428 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:03:22.456 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+ProductCatalog.Core.Exceptions.InvalidStartDateException: Start date cannot be in the past.
+   at ProductCatalog.Core.Entities.Product.Validate()
+   at ProductCatalog.Application.Services.ProductService.UpdateProductAsync(ProductDto productDto) in C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Application\Services\ProductService.cs:line 159
+   at ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit(Nullable`1 id, ProductDto productDto) in C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep\Controllers\ProductController.cs:line 158
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-18 13:04:00.518 +02:00 [INF] User profile is available. Using 'C:\Users\AL Motahida\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-18 13:04:03.831 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:04:08.390 +02:00 [INF] Executed DbCommand (1,013ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:04:08.828 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:04:08.896 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-01-18 13:04:10.727 +02:00 [INF] Now listening on: https://localhost:7192
+2025-01-18 13:04:10.747 +02:00 [INF] Now listening on: http://localhost:5183
+2025-01-18 13:04:11.253 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 13:04:12.719 +02:00 [INF] Hosting environment: Development
+2025-01-18 13:04:12.723 +02:00 [INF] Content root path: C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep
+2025-01-18 13:04:12.742 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:04:13.624 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:04:13.745 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:14.241 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:04:14.530 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:04:14.834 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:04:15.771 +02:00 [INF] Executed ViewResult - view Index executed in 951.4165ms.
+2025-01-18 13:04:15.786 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 2001.1505ms
+2025-01-18 13:04:15.791 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:04:15.913 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 3198.6063ms
+2025-01-18 13:04:16.049 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:04:16.308 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:04:16.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:04:16.533 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 484.1301ms
+2025-01-18 13:04:16.554 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 245.4388ms
+2025-01-18 13:04:16.775 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:04:17.070 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 752.6405ms
+2025-01-18 13:04:22.487 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/CreateOrEdit/1 - null null
+2025-01-18 13:04:22.668 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:04:22.707 +02:00 [INF] Route matched with {action = "CreateOrEdit", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrEdit(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:22.789 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:04:22.945 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-01-18 13:04:22.966 +02:00 [INF] Executing ViewResult, running view CreateOrEdit.
+2025-01-18 13:04:23.302 +02:00 [INF] Executed ViewResult - view CreateOrEdit executed in 339.7727ms.
+2025-01-18 13:04:23.306 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep) in 586.8014ms
+2025-01-18 13:04:23.314 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:04:23.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/CreateOrEdit/1 - 200 null text/html; charset=utf-8 830.8544ms
+2025-01-18 13:04:23.731 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:04:23.732 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:04:23.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:04:23.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 67.0272ms
+2025-01-18 13:04:23.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 68.4037ms
+2025-01-18 13:04:23.976 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:04:24.121 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 387.8205ms
+2025-01-18 13:04:30.678 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7192/Products/CreateOrEdit/1 - multipart/form-data; boundary=----WebKitFormBoundary5kFnygLXqtu9li4S 1560
+2025-01-18 13:04:30.716 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:04:30.771 +02:00 [INF] Route matched with {action = "CreateOrEdit", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrEdit(System.Nullable`1[System.Int32], ProductCatalog.Application.DTOs.ProductDto) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:30.923 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-01-18 13:04:31.421 +02:00 [INF] Executed DbCommand (75ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [CategoryId] = @p0, [CreatedByUserId] = @p1, [CreationDate] = @p2, [Description] = @p3, [Duration] = @p4, [ImagePath] = @p5, [Name] = @p6, [Price] = @p7, [StartDate] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2025-01-18 13:04:31.512 +02:00 [INF] Executing RedirectResult, redirecting to /.
+2025-01-18 13:04:31.515 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep) in 725.6429ms
+2025-01-18 13:04:31.519 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.CreateOrEdit (ProductCatalog.Wep)'
+2025-01-18 13:04:31.524 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7192/Products/CreateOrEdit/1 - 302 0 null 846.6006ms
+2025-01-18 13:04:31.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:04:31.582 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:04:31.585 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:31.608 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:04:31.637 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:04:31.670 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:04:31.706 +02:00 [INF] Executed ViewResult - view Index executed in 35.96ms.
+2025-01-18 13:04:31.715 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 123.6753ms
+2025-01-18 13:04:31.720 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:04:31.724 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 165.6988ms
+2025-01-18 13:04:31.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:04:31.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:04:31.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:04:32.029 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 122.8705ms
+2025-01-18 13:04:32.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 130.2588ms
+2025-01-18 13:04:32.134 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:04:32.279 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 341.6092ms
+2025-01-18 13:04:34.803 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:04:34.824 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:04:34.841 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:34.889 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:04:35.050 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:04:35.070 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:04:35.084 +02:00 [INF] Executed ViewResult - view Index executed in 13.9823ms.
+2025-01-18 13:04:35.087 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 218.0845ms
+2025-01-18 13:04:35.092 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:04:35.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 304.584ms
+2025-01-18 13:04:35.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:04:35.314 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:04:35.314 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:04:35.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 55.8869ms
+2025-01-18 13:04:35.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 42.572ms
+2025-01-18 13:04:35.384 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:04:35.585 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 271.4606ms
+2025-01-18 13:04:39.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:04:39.116 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:04:39.117 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:39.133 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:04:39.156 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:04:39.173 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:04:39.189 +02:00 [INF] Executed ViewResult - view Index executed in 16.123ms.
+2025-01-18 13:04:39.202 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 80.2687ms
+2025-01-18 13:04:39.206 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:04:39.215 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 120.1607ms
+2025-01-18 13:04:39.386 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:04:39.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:04:39.396 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:04:39.563 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 177.1654ms
+2025-01-18 13:04:39.622 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 225.9857ms
+2025-01-18 13:04:39.819 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 431.6706ms
+2025-01-18 13:04:39.821 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:04:41.078 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:04:41.091 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:04:41.098 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:04:41.110 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:04:41.123 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:04:41.136 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:04:41.140 +02:00 [INF] Executed ViewResult - view Index executed in 4.8135ms.
+2025-01-18 13:04:41.149 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 46.3ms
+2025-01-18 13:04:41.152 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:04:41.155 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 79.2123ms
+2025-01-18 13:04:41.368 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:04:41.371 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:04:41.372 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:04:41.389 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 20.9467ms
+2025-01-18 13:04:41.420 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 48.2049ms
+2025-01-18 13:04:41.566 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 195.1838ms
+2025-01-18 13:04:41.729 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:05:05.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:05:05.352 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:05:05.354 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:05:05.383 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:05:05.396 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:05:05.402 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:05:05.412 +02:00 [INF] Executed ViewResult - view Index executed in 10.1546ms.
+2025-01-18 13:05:05.418 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 50.5227ms
+2025-01-18 13:05:05.438 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:05:05.454 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 164.892ms
+2025-01-18 13:05:05.654 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:05:05.661 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:05:05.662 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:05:05.754 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 109.129ms
+2025-01-18 13:05:05.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 135.2491ms
+2025-01-18 13:05:06.035 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:05:06.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 434.8568ms
+2025-01-18 13:14:58.746 +02:00 [INF] User profile is available. Using 'C:\Users\AL Motahida\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-18 13:15:01.593 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:15:05.383 +02:00 [INF] Executed DbCommand (382ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:15:06.056 +02:00 [INF] Executed DbCommand (382ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:15:06.131 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-01-18 13:15:07.666 +02:00 [INF] Now listening on: https://localhost:7192
+2025-01-18 13:15:07.732 +02:00 [INF] Now listening on: http://localhost:5183
+2025-01-18 13:15:08.093 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 13:15:09.717 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:15:09.949 +02:00 [INF] Hosting environment: Development
+2025-01-18 13:15:10.354 +02:00 [INF] Content root path: C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep
+2025-01-18 13:15:11.252 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:15:11.409 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:15:12.035 +02:00 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:15:12.364 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:15:12.655 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:15:13.428 +02:00 [INF] Executed ViewResult - view Index executed in 780.122ms.
+2025-01-18 13:15:13.450 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 2021.1046ms
+2025-01-18 13:15:13.455 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:15:13.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 3810.2075ms
+2025-01-18 13:15:14.004 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:15:14.004 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:15:14.005 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:15:14.092 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 88.542ms
+2025-01-18 13:15:14.144 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 140.3445ms
+2025-01-18 13:15:14.157 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:15:14.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 524.5896ms
+2025-01-18 13:15:27.948 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:15:28.251 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:15:28.287 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:15:28.416 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:15:28.587 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:15:28.607 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:15:28.634 +02:00 [INF] Executed ViewResult - view Index executed in 28.5912ms.
+2025-01-18 13:15:28.647 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 335.6361ms
+2025-01-18 13:15:28.651 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:15:28.657 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 709.2762ms
+2025-01-18 13:15:28.915 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:15:28.965 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:15:28.980 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:15:29.003 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 87.9327ms
+2025-01-18 13:15:29.019 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 54.5528ms
+2025-01-18 13:15:29.146 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:15:29.230 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 249.3554ms
+2025-01-18 13:16:08.391 +02:00 [INF] User profile is available. Using 'C:\Users\AL Motahida\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-18 13:16:10.704 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:16:14.415 +02:00 [INF] Executed DbCommand (161ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:16:14.875 +02:00 [INF] Executed DbCommand (117ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:16:14.958 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-01-18 13:16:16.215 +02:00 [INF] Now listening on: https://localhost:7192
+2025-01-18 13:16:16.219 +02:00 [INF] Now listening on: http://localhost:5183
+2025-01-18 13:16:16.462 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 13:16:16.497 +02:00 [INF] Hosting environment: Development
+2025-01-18 13:16:16.517 +02:00 [INF] Content root path: C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep
+2025-01-18 13:16:17.620 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:16:18.464 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:16:18.578 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:16:19.208 +02:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:16:19.531 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:16:19.800 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:16:20.443 +02:00 [INF] Executed ViewResult - view Index executed in 636.5543ms.
+2025-01-18 13:16:20.474 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 1863.9829ms
+2025-01-18 13:16:20.479 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:16:20.514 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 2921.4637ms
+2025-01-18 13:16:20.725 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:16:20.917 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:16:20.930 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:16:20.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 78.5322ms
+2025-01-18 13:16:21.018 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 293.1636ms
+2025-01-18 13:16:21.116 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:16:21.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 317.7558ms
+2025-01-18 13:16:26.625 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:16:26.766 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:26.798 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:16:26.888 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:16:27.055 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:16:27.078 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:16:27.111 +02:00 [INF] Executed ViewResult - view Index executed in 34.505ms.
+2025-01-18 13:16:27.121 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 307.5576ms
+2025-01-18 13:16:27.136 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:27.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 518.0116ms
+2025-01-18 13:16:27.438 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:16:27.512 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:16:27.583 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:16:27.621 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 183.9726ms
+2025-01-18 13:16:27.642 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 129.8795ms
+2025-01-18 13:16:27.677 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:16:27.849 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 265.5048ms
+2025-01-18 13:16:30.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:16:30.698 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:30.701 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:16:30.730 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:16:30.743 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:16:30.752 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:16:30.760 +02:00 [INF] Executed ViewResult - view Index executed in 7.9223ms.
+2025-01-18 13:16:30.763 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 54.5043ms
+2025-01-18 13:16:30.770 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:30.774 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 298.556ms
+2025-01-18 13:16:30.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:16:30.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:16:30.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:16:30.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 23.489ms
+2025-01-18 13:16:31.058 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:16:31.009 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 36.7506ms
+2025-01-18 13:16:31.264 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 290.9763ms
+2025-01-18 13:16:32.246 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:16:32.266 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:32.274 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:16:32.324 +02:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:16:32.382 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:16:32.399 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:16:32.419 +02:00 [INF] Executed ViewResult - view Index executed in 19.4876ms.
+2025-01-18 13:16:32.428 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 149.8582ms
+2025-01-18 13:16:32.437 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:32.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 199.1035ms
+2025-01-18 13:16:32.673 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:16:32.676 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:16:32.680 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:16:32.714 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 38.4314ms
+2025-01-18 13:16:32.739 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 58.8091ms
+2025-01-18 13:16:32.777 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:16:32.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 202.7948ms
+2025-01-18 13:16:33.862 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:16:33.907 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:33.910 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:16:33.933 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:16:33.948 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:16:33.962 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:16:33.971 +02:00 [INF] Executed ViewResult - view Index executed in 8.5214ms.
+2025-01-18 13:16:33.976 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 60.5194ms
+2025-01-18 13:16:33.981 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:16:33.987 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 125.805ms
+2025-01-18 13:16:34.160 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:16:34.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:16:34.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:16:34.174 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 15.1075ms
+2025-01-18 13:16:34.183 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 19.8574ms
+2025-01-18 13:16:34.207 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:16:34.362 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 199.0301ms
+2025-01-18 13:19:25.818 +02:00 [INF] User profile is available. Using 'C:\Users\AL Motahida\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-18 13:19:28.247 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:19:32.578 +02:00 [INF] Executed DbCommand (632ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:19:32.867 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-18 13:19:33.015 +02:00 [INF] Executed DbCommand (67ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-01-18 13:19:34.355 +02:00 [INF] Now listening on: https://localhost:7192
+2025-01-18 13:19:34.358 +02:00 [INF] Now listening on: http://localhost:5183
+2025-01-18 13:19:34.695 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 13:19:34.706 +02:00 [INF] Hosting environment: Development
+2025-01-18 13:19:34.708 +02:00 [INF] Content root path: C:\Users\AL Motahida\source\repos\ProductCatalog.Wep\ProductCatalog.Wep
+2025-01-18 13:19:35.918 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:19:36.682 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:19:36.814 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:37.395 +02:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:37.730 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:19:37.960 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:38.590 +02:00 [INF] Executed ViewResult - view Index executed in 646.246ms.
+2025-01-18 13:19:38.633 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 1791.4527ms
+2025-01-18 13:19:38.656 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:19:38.747 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 2857.8355ms
+2025-01-18 13:19:39.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:39.172 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:39.415 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:39.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 147.9343ms
+2025-01-18 13:19:39.498 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 331.5588ms
+2025-01-18 13:19:39.513 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:39.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 382.5789ms
+2025-01-18 13:19:42.054 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:19:42.220 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:42.246 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:42.315 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:42.508 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:19:42.522 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:42.544 +02:00 [INF] Executed ViewResult - view Index executed in 23.4429ms.
+2025-01-18 13:19:42.548 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 288.5444ms
+2025-01-18 13:19:42.552 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:42.556 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 502.4658ms
+2025-01-18 13:19:42.809 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:42.894 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:42.933 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:42.989 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 175.4498ms
+2025-01-18 13:19:43.007 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 113.4032ms
+2025-01-18 13:19:43.073 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:43.295 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 361.5542ms
+2025-01-18 13:19:46.077 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:19:46.187 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:46.192 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:46.225 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:46.247 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:19:46.263 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:46.277 +02:00 [INF] Executed ViewResult - view Index executed in 14.3846ms.
+2025-01-18 13:19:46.282 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 73.9118ms
+2025-01-18 13:19:46.293 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:46.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 225.9582ms
+2025-01-18 13:19:46.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:46.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:46.570 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 53.7035ms
+2025-01-18 13:19:46.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:46.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 143.2831ms
+2025-01-18 13:19:46.708 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:46.845 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 328.755ms
+2025-01-18 13:19:47.996 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:19:48.078 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:48.083 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:48.107 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:48.135 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:19:48.154 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:48.169 +02:00 [INF] Executed ViewResult - view Index executed in 13.9985ms.
+2025-01-18 13:19:48.179 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 84.7768ms
+2025-01-18 13:19:48.190 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:48.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 201.1589ms
+2025-01-18 13:19:48.397 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:48.404 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:48.411 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:48.429 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 34.3901ms
+2025-01-18 13:19:48.493 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:48.448 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 43.887ms
+2025-01-18 13:19:48.648 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 236.7912ms
+2025-01-18 13:19:50.061 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:19:50.116 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:50.132 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:50.181 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:50.205 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:19:50.216 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:50.229 +02:00 [INF] Executed ViewResult - view Index executed in 13.6532ms.
+2025-01-18 13:19:50.235 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 62.215ms
+2025-01-18 13:19:50.242 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:50.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 183.2947ms
+2025-01-18 13:19:50.483 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:50.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:50.491 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:50.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 25.6327ms
+2025-01-18 13:19:50.535 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 46.2445ms
+2025-01-18 13:19:50.753 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:50.762 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 270.6828ms
+2025-01-18 13:19:52.040 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:19:52.066 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:52.078 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:52.096 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:52.114 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:19:52.128 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:52.140 +02:00 [INF] Executed ViewResult - view Index executed in 12.0796ms.
+2025-01-18 13:19:52.143 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 54.8221ms
+2025-01-18 13:19:52.147 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:19:52.150 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 110.2527ms
+2025-01-18 13:19:52.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:52.346 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:52.348 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:52.456 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 109.8759ms
+2025-01-18 13:19:52.458 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 119.3969ms
+2025-01-18 13:19:52.504 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:52.731 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 383.0109ms
+2025-01-18 13:19:53.647 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:19:53.749 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:19:53.758 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:19:53.779 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:19:53.792 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:19:53.798 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:19:53.807 +02:00 [INF] Executed ViewResult - view Index executed in 9.1705ms.
+2025-01-18 13:19:53.810 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 44.5694ms
+2025-01-18 13:19:53.813 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:19:53.816 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 168.5541ms
+2025-01-18 13:19:54.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:19:54.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:19:54.046 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:19:54.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 53.3906ms
+2025-01-18 13:19:54.131 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 87.8703ms
+2025-01-18 13:19:54.291 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:19:54.310 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 263.9528ms
+2025-01-18 13:20:34.088 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:20:34.104 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:20:34.118 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:20:34.132 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:20:34.149 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:20:34.167 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:20:34.312 +02:00 [INF] Executed ViewResult - view Index executed in 153.8883ms.
+2025-01-18 13:20:34.319 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 196.1155ms
+2025-01-18 13:20:34.322 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:20:34.326 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 237.2072ms
+2025-01-18 13:20:34.551 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:20:34.552 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:20:34.568 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:20:34.757 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 205.7473ms
+2025-01-18 13:20:34.789 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 221.2374ms
+2025-01-18 13:20:34.811 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:20:34.975 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 423.5185ms
+2025-01-18 13:20:37.179 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:20:37.324 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:20:37.353 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:20:37.385 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:20:37.417 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:20:37.440 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:20:37.460 +02:00 [INF] Executed ViewResult - view Index executed in 20.0016ms.
+2025-01-18 13:20:37.476 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 104.3064ms
+2025-01-18 13:20:37.629 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:20:37.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 481.1431ms
+2025-01-18 13:20:37.974 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:20:37.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:20:38.079 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 96.7447ms
+2025-01-18 13:20:38.024 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 49.8234ms
+2025-01-18 13:20:37.991 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:20:38.177 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:20:38.268 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 277.6283ms
+2025-01-18 13:20:45.894 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:20:45.916 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:20:45.921 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:20:45.938 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:20:45.949 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:20:45.961 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:20:45.984 +02:00 [INF] Executed ViewResult - view Index executed in 22.818ms.
+2025-01-18 13:20:45.991 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 64.2755ms
+2025-01-18 13:20:46.000 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:20:46.009 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 115.1502ms
+2025-01-18 13:20:46.242 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:20:46.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:20:46.398 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:20:46.442 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 200.0611ms
+2025-01-18 13:20:46.460 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 73.0724ms
+2025-01-18 13:20:46.488 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:20:46.676 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 278.638ms
+2025-01-18 13:20:48.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:20:49.022 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:20:49.027 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:20:49.061 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:20:49.095 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:20:49.121 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:20:49.135 +02:00 [INF] Executed ViewResult - view Index executed in 14.8239ms.
+2025-01-18 13:20:49.144 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 101.673ms
+2025-01-18 13:20:49.152 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:20:49.155 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 172.8234ms
+2025-01-18 13:20:49.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:20:49.428 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:20:49.431 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:20:49.443 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 21.0962ms
+2025-01-18 13:20:49.460 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 31.8745ms
+2025-01-18 13:20:49.523 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:20:49.658 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 229.4666ms
+2025-01-18 13:20:52.408 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:20:52.456 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:20:52.477 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:20:52.572 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:20:52.596 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:20:52.607 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:20:52.613 +02:00 [INF] Executed ViewResult - view Index executed in 6.4778ms.
+2025-01-18 13:20:52.617 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 66.539ms
+2025-01-18 13:20:52.620 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:20:52.623 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 214.5619ms
+2025-01-18 13:20:52.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:20:52.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:20:52.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:20:52.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 47.8203ms
+2025-01-18 13:20:52.922 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 71.9215ms
+2025-01-18 13:20:52.949 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:20:53.124 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 274.3025ms
+2025-01-18 13:20:56.026 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:20:56.082 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:20:56.086 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:20:56.102 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:20:56.117 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:20:56.126 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:20:56.135 +02:00 [INF] Executed ViewResult - view Index executed in 9.1642ms.
+2025-01-18 13:20:56.140 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 49.1659ms
+2025-01-18 13:20:56.151 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:20:56.159 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 133.7866ms
+2025-01-18 13:20:56.353 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:20:56.359 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:20:56.359 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:20:56.449 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 95.5137ms
+2025-01-18 13:20:56.471 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 112.4548ms
+2025-01-18 13:20:56.499 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:20:56.639 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 281.8301ms
+2025-01-18 13:21:22.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:21:22.658 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:21:22.724 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:21:22.917 +02:00 [INF] Executed DbCommand (164ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:21:22.986 +02:00 [INF] Executed DbCommand (25ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:21:23.023 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:21:23.122 +02:00 [INF] Executed ViewResult - view Index executed in 101.9468ms.
+2025-01-18 13:21:23.125 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 374.0531ms
+2025-01-18 13:21:23.131 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:21:23.133 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 495.935ms
+2025-01-18 13:21:23.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:21:23.432 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:21:23.438 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:21:23.480 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 51.2046ms
+2025-01-18 13:21:23.820 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 387.9894ms
+2025-01-18 13:21:23.891 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:21:24.019 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 580.7826ms
+2025-01-18 13:21:28.536 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:21:28.655 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:21:28.717 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:21:28.906 +02:00 [INF] Executed DbCommand (167ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:21:28.921 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:21:28.930 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:21:28.936 +02:00 [INF] Executed ViewResult - view Index executed in 6.6478ms.
+2025-01-18 13:21:28.938 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 202.9775ms
+2025-01-18 13:21:28.941 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:21:28.946 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 409.7732ms
+2025-01-18 13:21:29.134 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:21:29.137 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:21:29.138 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:21:29.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 41.2425ms
+2025-01-18 13:21:29.220 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 82.9136ms
+2025-01-18 13:21:29.273 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:21:29.401 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 262.8505ms
+2025-01-18 13:21:31.121 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/Products/IndexOnTime - null null
+2025-01-18 13:21:31.145 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:21:31.152 +02:00 [INF] Route matched with {action = "IndexOnTime", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexOnTime(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:21:31.182 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:21:31.201 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[@__currentTime_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+WHERE [p].[StartDate] <= @__currentTime_0 AND DATEADD(day, CAST(CAST([p].[Duration] AS float) AS int), [p].[StartDate]) >= @__currentTime_0
+2025-01-18 13:21:31.214 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:21:31.221 +02:00 [INF] Executed ViewResult - view Index executed in 7.3591ms.
+2025-01-18 13:21:31.234 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep) in 76.4144ms
+2025-01-18 13:21:31.246 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.IndexOnTime (ProductCatalog.Wep)'
+2025-01-18 13:21:31.252 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/Products/IndexOnTime - 200 null text/html; charset=utf-8 130.651ms
+2025-01-18 13:21:31.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:21:31.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:21:31.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:21:31.522 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 48.4684ms
+2025-01-18 13:21:31.549 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 68.2909ms
+2025-01-18 13:21:31.628 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:21:31.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 329.4475ms
+2025-01-18 13:21:34.870 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ - null null
+2025-01-18 13:21:34.921 +02:00 [INF] Executing endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:21:35.003 +02:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.Nullable`1[System.Int32]) on controller ProductCatalog.Web.Controllers.ProductsController (ProductCatalog.Wep).
+2025-01-18 13:21:35.064 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-18 13:21:35.075 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedByUserId], [p].[CreationDate], [p].[Description], [p].[Duration], [p].[ImagePath], [p].[Name], [p].[Price], [p].[StartDate]
+FROM [Products] AS [p]
+2025-01-18 13:21:35.102 +02:00 [INF] Executing ViewResult, running view Index.
+2025-01-18 13:21:35.154 +02:00 [INF] Executed ViewResult - view Index executed in 52.2532ms.
+2025-01-18 13:21:35.240 +02:00 [INF] Executed action ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep) in 207.771ms
+2025-01-18 13:21:35.247 +02:00 [INF] Executed endpoint 'ProductCatalog.Web.Controllers.ProductsController.Index (ProductCatalog.Wep)'
+2025-01-18 13:21:35.250 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ - 200 null text/html; charset=utf-8 379.7677ms
+2025-01-18 13:21:35.482 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - null null
+2025-01-18 13:21:35.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:21:35.507 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - null null
+2025-01-18 13:21:36.238 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/ProductCatalog.Web.styles.css - 404 0 null 756.4908ms
+2025-01-18 13:21:36.356 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7192/ProductCatalog.Web.styles.css, Response status code: 404
+2025-01-18 13:21:36.267 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 778.3582ms
+2025-01-18 13:21:36.444 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - 200 null text/javascript; charset=UTF-8 937.0687ms
