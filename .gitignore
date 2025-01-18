@@ -1,0 +1,13 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore local configuration files
+appsettings.Development.json
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore NuGet packages
+packages/
