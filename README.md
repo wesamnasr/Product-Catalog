@@ -19,7 +19,7 @@ so you should use Identity to manage the user privileges.
 
 ---
 
-##1. Architecture
+## 1. Architecture
  The application follows the clean Architecture with the following layers:
 
 -** Presentation Layer**:
@@ -38,7 +38,7 @@ Manages CRUD operations for products and categories.
 MSSQL database with tables for products, categories, users, and logs.
 
 
-##2. Features
+## 2. Features
 
 ### Product Management
 - **Add Products**: Admins can add new products with details like name, description, price, start date, duration, and an image (JPG, JPEG, or PNG, max 1MB).
@@ -63,7 +63,7 @@ MSSQL database with tables for products, categories, users, and logs.
 
 ---
 
-##3. Technologies Used
+## 3. Technologies Used
 
 - **Backend**: ASP.NET Core MVC
 - **Database**: MSSQL with Entity Framework Core (EF Core) as the ORM
@@ -93,9 +93,9 @@ Filter by Category: Use the category dropdown to filter products.
 Error Logging: Errors are logged using the built-in ILogger interface. Logs can be viewed in the console or configured to write to a file or external service.
 Product Update Logging: All product updates are logged in the database, including the timestamp and the user who made the change.
 
-## Unit Testing
+## 4.Unit Testing
 
-### Prerequisites
+### 5. Prerequisites
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) (or any code editor with .NET support)
