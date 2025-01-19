@@ -8,6 +8,7 @@ appsettings.Development.json
 # Ignore IDE-specific files
 .vscode/
 .idea/
+.vs/
 
 # Ignore NuGet packages
 packages/
