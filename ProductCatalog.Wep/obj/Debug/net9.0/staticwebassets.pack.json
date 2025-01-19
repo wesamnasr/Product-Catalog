@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ProductCatalog.Wep.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProductCatalog.Wep.iengenvh5w.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\074e63ac-a21a-4d2d-8ea2-83b45b735ebd.jpeg",
+      "PackagePath": "staticwebassets\\images\\074e63ac-a21a-4d2d-8ea2-83b45b735ebd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\0e356562-bbf2-491e-8b06-7bead793ecad.jpeg",
+      "PackagePath": "staticwebassets\\images\\0e356562-bbf2-491e-8b06-7bead793ecad.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\16293cd0-d8c2-441c-9724-59026b61047a.jpg",
+      "PackagePath": "staticwebassets\\images\\16293cd0-d8c2-441c-9724-59026b61047a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\18c4926a-7256-4ef6-bdc3-d7925bc38e9e.jpeg",
+      "PackagePath": "staticwebassets\\images\\18c4926a-7256-4ef6-bdc3-d7925bc38e9e.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\1b12e1b5-0a45-4249-9074-f2de37b573fa.jpeg",
+      "PackagePath": "staticwebassets\\images\\1b12e1b5-0a45-4249-9074-f2de37b573fa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\252efaaf-3f5e-4649-80c2-9b979acc57d6.jpeg",
+      "PackagePath": "staticwebassets\\images\\252efaaf-3f5e-4649-80c2-9b979acc57d6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\31a09d96-07cc-4a50-aad0-d10670651644.jpeg",
+      "PackagePath": "staticwebassets\\images\\31a09d96-07cc-4a50-aad0-d10670651644.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\4461130b-18c9-4aa0-a86c-e322ef52a7ee.jpeg",
+      "PackagePath": "staticwebassets\\images\\4461130b-18c9-4aa0-a86c-e322ef52a7ee.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\75361a96-f507-4e74-bf21-e034016d08c2.jpeg",
+      "PackagePath": "staticwebassets\\images\\75361a96-f507-4e74-bf21-e034016d08c2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\785ac9b7-bbf5-42d5-9623-91c0978e6153.jpeg",
+      "PackagePath": "staticwebassets\\images\\785ac9b7-bbf5-42d5-9623-91c0978e6153.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\7b743104-e2bd-48e6-9ff3-b8875f928da8.jpeg",
+      "PackagePath": "staticwebassets\\images\\7b743104-e2bd-48e6-9ff3-b8875f928da8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\8355a320-0fb1-491a-af67-f8b93003e511.jpeg",
+      "PackagePath": "staticwebassets\\images\\8355a320-0fb1-491a-af67-f8b93003e511.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\866e901e-4623-4c90-a161-95023896a0e2.jpeg",
+      "PackagePath": "staticwebassets\\images\\866e901e-4623-4c90-a161-95023896a0e2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\ae32bdcb-88fd-4409-a940-43dfbba812f3.jpeg",
+      "PackagePath": "staticwebassets\\images\\ae32bdcb-88fd-4409-a940-43dfbba812f3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\e4238c47-d7b9-4673-882d-f8e7269a786e.jpeg",
+      "PackagePath": "staticwebassets\\images\\e4238c47-d7b9-4673-882d-f8e7269a786e.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\images\\f5b06c1e-c27d-43ce-aa84-66c4bbcd0895.jpg",
+      "PackagePath": "staticwebassets\\images\\f5b06c1e-c27d-43ce-aa84-66c4bbcd0895.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ProductCatalog.Wep.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ProductCatalog.Wep.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ProductCatalog.Wep.props",
+      "PackagePath": "build\\ProductCatalog.Wep.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ProductCatalog.Wep.props",
+      "PackagePath": "buildMultiTargeting\\ProductCatalog.Wep.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ProductCatalog.Wep.props",
+      "PackagePath": "buildTransitive\\ProductCatalog.Wep.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,916 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\products\\indexontime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\products\\indexontime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\products\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\products\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.tests\\weplayertest\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|solutionrelative:productcatalog.tests\\weplayertest\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\interfacesrepo\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\interfacesrepo\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\interfacesrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\interfacesrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\interfacesrepo\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\interfacesrepo\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\services\\productupdatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\services\\productupdatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.productUpdateLogEns.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\migrations\\20250118220035_add-updatelog-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\migrations\\20250118220035_add-updatelog-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.tests\\applicationlayertest\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|solutionrelative:productcatalog.tests\\applicationlayertest\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\entities\\productupdatelogen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\entities\\productupdatelogen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\interfaces\\iproductupdatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\interfaces\\iproductupdatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.tests\\weplayertest\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|solutionrelative:productcatalog.tests\\weplayertest\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.tests\\infrastructurelayertest\\productrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|solutionrelative:productcatalog.tests\\infrastructurelayertest\\productrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8D4451-F20E-487F-B6B4-6B6EBFA753DF}|ProductCatalog.Tests\\ProductCatalog.Tests.csproj|solutionrelative:productcatalog.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\migrations\\20250118143156_add-category-name-to-product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\migrations\\20250118143156_add-category-name-to-product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.Logs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\logs\\logdevelopment20250118.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\logs\\logdevelopment20250118.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\models\\account\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\models\\account\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\productcatalog.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\productcatalog.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.application\\dtos\\editproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5938A529-493C-4740-A646-087DCBD74DD8}|ProductCatalog.Application\\ProductCatalog.Application.csproj|solutionrelative:productcatalog.application\\dtos\\editproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.wep\\models\\account\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E537E360-54C0-4A46-A181-5E5BC68C94F8}|ProductCatalog.Wep\\ProductCatalog.Wep.csproj|solutionrelative:productcatalog.wep\\models\\account\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\migrations\\20250116233452_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\migrations\\20250116233452_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\migrations\\20250116233452_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\migrations\\20250116233452_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\exceptions\\invalidimageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\exceptions\\invalidimageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\exceptions\\invalidstartdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\exceptions\\invalidstartdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\exceptions\\invalidpriceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\exceptions\\invalidpriceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.core\\exceptions\\invaliddurationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABF7901-47E5-4064-8484-CE6C8A8CB699}|ProductCatalog.Core\\ProductCatalog.Core.csproj|solutionrelative:productcatalog.core\\exceptions\\invaliddurationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|c:\\users\\al motahida\\source\\repos\\productcatalog.wep\\productcatalog.infrastructure\\migrations\\20250117205406_addfullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CA2016-CAC3-4075-A8DA-8E8DE71EC408}|ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj|solutionrelative:productcatalog.infrastructure\\migrations\\20250117205406_addfullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 83,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IndexOnTime.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\IndexOnTime.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Products\\IndexOnTime.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\IndexOnTime.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Products\\IndexOnTime.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T22:59:42.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductCatalog.Wep\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:24:30.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:11:21.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProductCatalog.Wep\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAwCkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T01:17:07.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\CreateOrEdit.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Products\\CreateOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\CreateOrEdit.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Products\\CreateOrEdit.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T14:17:22.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:48:30.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T23:11:00.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:54:28.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Program.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Program.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Program.cs",
+              "RelativeToolTip": "ProductCatalog.Wep\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAwGEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:13:10.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\WepLayerTest\\ProductsControllerTests.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Tests\\WepLayerTest\\ProductsControllerTests.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\WepLayerTest\\ProductsControllerTests.cs",
+              "RelativeToolTip": "ProductCatalog.Tests\\WepLayerTest\\ProductsControllerTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T19:21:10.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAywAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:22:15.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\InterfacesRepo\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\InterfacesRepo\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\InterfacesRepo\\ICategoryRepository.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\InterfacesRepo\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:53:58.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\InterfacesRepo\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\InterfacesRepo\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\InterfacesRepo\\IProductRepository.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\InterfacesRepo\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:54:01.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\InterfacesRepo\\IRepository.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\InterfacesRepo\\IRepository.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\InterfacesRepo\\IRepository.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\InterfacesRepo\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:54:03.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductUpdateLog.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Services\\ProductUpdateLog.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\Services\\ProductUpdateLog.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Services\\ProductUpdateLog.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\Services\\ProductUpdateLog.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:36:11.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:12:00.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ProductCatalog.Wep\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-17T00:14:30.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:11:04.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.productUpdateLogEns [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.productUpdateLogEns.sql",
+              "ToolTip": "dbo.productUpdateLogEns [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-18T22:16:30.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Entities\\Product.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:17:39.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:23:58.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250118220035_Add-UpdateLog-table.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250118220035_Add-UpdateLog-table.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Migrations\\20250118220035_Add-UpdateLog-table.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250118220035_Add-UpdateLog-table.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Migrations\\20250118220035_Add-UpdateLog-table.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T22:00:37.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\ApplicationLayerTest\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Tests\\ApplicationLayerTest\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\ApplicationLayerTest\\ProductServiceTests.cs",
+              "RelativeToolTip": "ProductCatalog.Tests\\ApplicationLayerTest\\ProductServiceTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAArwB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T17:45:12.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductUpdateLogEn.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Entities\\ProductUpdateLogEn.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Entities\\ProductUpdateLogEn.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Entities\\ProductUpdateLogEn.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Entities\\ProductUpdateLogEn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:40:11.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IProductUpdateLog.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Interfaces\\IProductUpdateLog.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\Interfaces\\IProductUpdateLog.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Interfaces\\IProductUpdateLog.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\Interfaces\\IProductUpdateLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:32:20.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\WepLayerTest\\AccountControllerTests.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Tests\\WepLayerTest\\AccountControllerTests.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\WepLayerTest\\AccountControllerTests.cs",
+              "RelativeToolTip": "ProductCatalog.Tests\\WepLayerTest\\AccountControllerTests.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAUwFcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T20:31:56.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T11:36:35.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\InfrastructureLayerTest\\ProductRepositoryTests.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Tests\\InfrastructureLayerTest\\ProductRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\InfrastructureLayerTest\\ProductRepositoryTests.cs",
+              "RelativeToolTip": "ProductCatalog.Tests\\InfrastructureLayerTest\\ProductRepositoryTests.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4v0EAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:49:33.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ProductCatalog.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:27:18.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T23:06:00.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250118143156_add-category-name-to-product.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250118143156_add-category-name-to-product.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Migrations\\20250118143156_add-category-name-to-product.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250118143156_add-category-name-to-product.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Migrations\\20250118143156_add-category-name-to-product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:31:57.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:34:18.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "dbo.Logs [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.Logs.sql",
+              "ToolTip": "dbo.Logs [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-18T13:53:19.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "logDevelopment20250118.json",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\logs\\logDevelopment20250118.json",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\logs\\logDevelopment20250118.json",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\logs\\logDevelopment20250118.json",
+              "RelativeToolTip": "ProductCatalog.Wep\\logs\\logDevelopment20250118.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T13:54:15.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T13:58:25.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T23:10:12.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Data\\SeedData.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T01:04:37.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\appsettings.json",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\appsettings.json",
+              "RelativeToolTip": "ProductCatalog.Wep\\appsettings.json",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T22:18:48.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Models\\Account\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Models\\Account\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Models\\Account\\RegisterViewModel.cs",
+              "RelativeToolTip": "ProductCatalog.Wep\\Models\\Account\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:12:21.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:13:25.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250117205406_addfullname.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250117205406_addfullname.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Migrations\\20250117205406_addfullname.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250117205406_addfullname.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Migrations\\20250117205406_addfullname.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABFwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:54:07.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:43:47.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/./ProductCatalogDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-17T20:16:11.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductCatalog.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\ProductCatalog.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T23:34:28.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EditProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\DTOs\\EditProductDto.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Application\\DTOs\\EditProductDto.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Application\\DTOs\\EditProductDto.cs",
+              "RelativeToolTip": "ProductCatalog.Application\\DTOs\\EditProductDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:25:27.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "ProductCatalog.Wep\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:10:16.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Models\\Account\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Wep\\Models\\Account\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Wep\\Models\\Account\\LoginViewModel.cs",
+              "RelativeToolTip": "ProductCatalog.Wep\\Models\\Account\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:03:25.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250116233452_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:34:52.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250116233452_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.Designer.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Migrations\\20250116233452_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:39:46.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ProductCatalog.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAAwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:39:10.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "InvalidImageException.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidImageException.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Exceptions\\InvalidImageException.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidImageException.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Exceptions\\InvalidImageException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:59:32.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "InvalidStartDateException.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidStartDateException.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Exceptions\\InvalidStartDateException.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidStartDateException.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Exceptions\\InvalidStartDateException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:59:31.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "InvalidPriceException.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidPriceException.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Exceptions\\InvalidPriceException.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidPriceException.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Exceptions\\InvalidPriceException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:59:29.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "InvalidDurationException.cs",
+              "DocumentMoniker": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidDurationException.cs",
+              "RelativeDocumentMoniker": "ProductCatalog.Core\\Exceptions\\InvalidDurationException.cs",
+              "ToolTip": "C:\\Users\\AL Motahida\\source\\repos\\ProductCatalog.Wep\\ProductCatalog.Core\\Exceptions\\InvalidDurationException.cs",
+              "RelativeToolTip": "ProductCatalog.Core\\Exceptions\\InvalidDurationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:59:30.328Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 83,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

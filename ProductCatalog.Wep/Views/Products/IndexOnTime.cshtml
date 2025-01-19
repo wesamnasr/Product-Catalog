@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ProductCatalog.Application.DTOs.ProductDto>
+
+@{
+    ViewData["Title"] = "Active Products";
+}
+
+<h1>Active Products</h1>
+
+<!-- Filter by Category -->
+<form asp-action="IndexOnTime" method="get" class="form-inline mb-3">
+    <div class="form-group">
+        <label for="categoryId" class="mr-2">Filter by Category:</label>
+        <select name="categoryId" asp-items="ViewBag.Categories" class="form-control">
+            <option value="">-- All Categories --</option>
+        </select>
+        <button type="submit" class="btn btn-primary ml-2">Filter</button>
+
+    </div>
+</form>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="CreateOrEdit" class="btn btn-primary">Create New</a>
+    </p>
+    if (ViewBag.IsOnTime == false)
+    {
+        <p>
+            <a asp-action="IndexOnTime" class="btn btn-primary">On Time</a>
+        </p>
+    }
+    else
+    {
+        <p>
+            <a asp-action="Index" class="btn btn-primary">Off Time</a>
+        </p>
+    }
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Start Date</th>
+            <th>Duration (Days)</th>
+            <th>Discription</th>
+            <th>Price</th>
+            <th>Image</th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>Actions</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.CategoryName</td>
+                <td>@product.StartDate.ToString("MM/dd/yyyy")</td>
+                <td>@product.Duration</td>
+                <td>@product.Description</td>
+
+                <td>@product.Price.ToString("C")</td>
+              
+                <td>
+                    @if (!string.IsNullOrEmpty(product.ImagePath))
+                    {
+                        <img src="@product.ImagePath" alt="Product Image" style="max-width: 100px;max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <img src="/images/placeholder.png" alt="No Image" style="max-width: 100px;" />
+                    }
+                </td>
+
+                 <td>
+                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-info">Details</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                                <a asp-action="CreateOrEdit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                        }
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>
